@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cbule.contentprovider.MediaPlayActivity">
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/media_play_toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+     android:layout_marginBottom="20dp">
+  </android.support.v7.widget.Toolbar>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="start"
+      android:text="开始"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stop"
+        android:text="停止"/>
+</LinearLayout>

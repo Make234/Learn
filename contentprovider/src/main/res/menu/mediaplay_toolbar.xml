@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mediaplay_activity_item01"
+        android:title="开始"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/mediaplay_activity_item02"
+        android:title="停止"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+</menu>

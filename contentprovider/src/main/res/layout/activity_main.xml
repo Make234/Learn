@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cbule.contentprovider.MainActivity">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="#330000ff"-->
+        <!--android:gravity="right"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:id="@+id/mainactivity_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="新建"-->
+            <!--android:layout_marginRight= "10dp"-->
+            <!--android:clickable="true"-->
+            <!--android:onClick="jump"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainactivity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/mainactivity_searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.SearchView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+        <ListView
+            android:id="@+id/mainactivity_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|right"
+            android:onClick="recorderstart"
+            android:src="@android:drawable/presence_audio_online"/>
+    </FrameLayout>
+
+</LinearLayout>
